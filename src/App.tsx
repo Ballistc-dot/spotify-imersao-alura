@@ -1,10 +1,15 @@
 import './App.css'
+import './reset.css'
+import { SideBar } from './components/sidebar'
 
 function App() {
 
   return (
-    <h1>Hello World</h1>
+    <>
+      <SideBar/>
+    </>
   )
 }
 
 export default App
+ 

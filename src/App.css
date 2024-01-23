@@ -1,6 +1,10 @@
-body{
-  background-color: black;
-}
-h1{
-  color: #fff;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  body{
+    @apply bg-black;
+  }
 }
